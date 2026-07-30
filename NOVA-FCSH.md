@@ -1,8 +1,8 @@
-# Abstract: nova-fcsh-novathesis-vA.B.C
+# Abstract: novathesis-nova-fcsh-v8.0.0
 
 This is a customized LaTeX template for theses and reports at **Faculdade de Ciências Sociais e Humanas da Universidade NOVA de Lisboa (NOVA FCSH)**, following the most recent [NOVA FCSH guidelines (in Portuguese, requires atuthentication)](https://intranet.fcsh.unl.pt/formularios-e-modelos-academicos). 
 
-This template is a streamlined and fine-tuned version of the robust **NOVAthesis framework (vA.B.C)**, trimmed down and optimized to provide NOVA FCSH students with a streamlined experience, meeting NOVA FCSH's academic formatting standards without the complexity of the original multi-institution template. 
+This template is a streamlined and fine-tuned version of the robust **NOVAthesis framework (v8.0.0)**, trimmed down and optimized to provide NOVA FCSH students with a streamlined experience, meeting NOVA FCSH's academic formatting standards without the complexity of the original multi-institution template. 
 
 ### Key Features:
 
