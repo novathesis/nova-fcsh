@@ -12,6 +12,9 @@
 %% METADATA & GLOBAL PROPERTIES
 %%=======================================================================
 
+% All LaTeX engines (pdfLaTeX, XeLaTeX, LuaLaTeX) are accepted
+\AddValidProcessor{nova/fcsh}{pdf,lua,xe}
+
 \ntsetup{print/statement=true}
 \ntsetup{print/frontpage=false}
 \ntsetup{style/chapter=article}
@@ -91,8 +94,7 @@
 %% FRONT MATTER CONFIGURATION
 %%=======================================================================
 
-\options{/@nt/print/frontmatter/final = 
-  {%
+\@nt@printorder@set{frontmatter_final}{%
     frontpage,        % (*) The institutional statement and funding
     copyright,        % (*) The copyright page
     dedication,       % (*) Print the dedication
@@ -103,11 +105,9 @@
     abstracts,        % Print abstracts in multiple languages.
     alllistof,        % Print all the listof defined in “6_list_of.tex”
     myprintglossaries, % Print the Glossary, Acronyms, Symbols, etc…
-  }
 }
 
-\options{/@nt/print/frontmatter/provisional = 
-  {%
+\@nt@printorder@set{frontmatter_provisional}{%
     frontpage,        % (*) The institutional statement and funding
     copyright,        % (*) The copyright page
     dedication,       % (*) Print the dedication
@@ -118,7 +118,6 @@
     abstracts,        % Print abstracts in multiple languages.
     alllistof,        % Print all the listof defined in “6_list_of.tex”
     myprintglossaries, % Print the Glossary, Acronyms, Symbols, etc…
-  }
 }
 
 
